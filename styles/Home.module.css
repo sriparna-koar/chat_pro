@@ -1,6 +1,18 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* vertically center the content */
 }
+
+.github-link {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.github-link a {
+  color: #000; /* Change the color as needed */
+}
+
 
 .main {
   min-height: 100vh;
